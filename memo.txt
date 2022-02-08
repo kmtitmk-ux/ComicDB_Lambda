@@ -1,0 +1,30 @@
+■フェーズ1基本設定
+スクレイピング作成、稼働～1/16
+
+https://aws.amazon.com/jp/getting-started/hands-on/build-react-app-amplify-graphql/module-one/
+amplify、graphql、～1/31
+
+https://github.com/devias-io/material-kit-react
+画面つなぎこみ、～2/13
+ページ構成
+ホーム　絞り込み
+
+
+
+
+フェーズ1リリース、～2/28
+postedTimeStamp パーティショイン
+
+
+
+■フェーズ2ログイン機能、改廃
+レーティング
+リンク切れ報告、優先改廃
+コメント
+投稿
+～3/31
+
+
+■フェーズ3スマホアプリ化
+■フェーズ4案件依頼
+未定
