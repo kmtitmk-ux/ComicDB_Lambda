@@ -1,6 +1,6 @@
-// await new Promise(resolve => setTimeout(resolve, 1000));
-// const aws = require("aws-sdk");
-// const chromium = require("chrome-aws-lambda");
+await new Promise(resolve => setTimeout(resolve, 1000));
+const aws = require("aws-sdk");
+const chromium = require("chrome-aws-lambda");
 require('dotenv').config();
 const puppeteer = require('puppeteer');
 const dayjs = require('dayjs');
@@ -24,7 +24,6 @@ exports.handler = async (event, context) => {
         console.error(e);
     }
 };
-exports.handler('scraping', '');
 
 
 async function procScraping() {
