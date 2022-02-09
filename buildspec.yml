@@ -1,0 +1,27 @@
+version: 0.2        
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14.x 
+    commands:
+      - npm update -g npm
+  pre_build:
+    commands:
+      - node ./preBuild.js
+      - eslint ./Functions/
+  build:
+    commands:
+      - sam package 
+      - command
+    finally:
+      - command
+      - command
+  post_build:
+    run-as: Linux-user-name
+    on-failure: ABORT | CONTINUE
+    commands:
+      - command
+      - command
+    finally:
+      - command
+      - command
